@@ -17,4 +17,4 @@
 "connector_plate_hole_diameter"= 0.375in
 "connector_plate_hole_depth"= 1in
 "coonector_first_hole_offset"= 1.6in
-"D14@Sketch1"="connector_plate_hole_diameter"*3in
+"D14@Sketch1"=1.5

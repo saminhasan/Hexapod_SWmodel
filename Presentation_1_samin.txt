@@ -1,0 +1,184 @@
+Torso Motion
+Simulator For
+Lululemon
+Hexapod Development Roadmap
+
+2024:
+ May – Aug: Conceptual Design
+   •   Analysis of motion profile
+   •   Kinematic and Dynamic Modeling
+   •   Preliminary design
+
+ Sept – Oct: Detailed Design
+   •   Mechanical component dimensioning
+   •   Design Optimization for manufacturing
+   •   Order off-the-shelf components
+
+ Nov – Dec: Manufacturing & Assembly
+   •   Assembly of platform
+   •   Motor control testing
+Hexapod Development Roadmap
+
+2025:
+ Jan: Control Integration
+ Feb – March: Testing & Revisions
+   •   Full system testing
+   •   Design adjustments, if necessary
+
+ April: Documentation & Handover
+   • Create instruction manual
+   • Prepare conference paper
+
+ May – Sept: Thesis Writeup & Defense
+Project Timeline
+Analysis of motion profile
+ 5                                                                               0
+ 4                                                                              -2 0   0.1     0.2     0.3      0.4     0.5     0.6     0.7    0.8
+ 3                                                                              -4
+ 2                                                                              -6
+ 1                                                                              -8
+ 0                                                                             -10
+-1 0           0.1     0.2     0.3      0.4      0.5     0.6       0.7   0.8   -12
+-2                                                                             -14
+                                                                               -16
+-3
+
+                     X measured (deg)          X fundamental [deg]
+                                                                                             Y measured (deg)         Y fundamental [deg]
+
+
+
+
+ 0.02
+                                                                                20
+       0                                                                        15
+           0     0.1     0.2     0.3     0.4      0.5    0.6       0.7   0.8
+-0.02                                                                           10
+                                                                                 5
+-0.04                                                                            0
+-0.06                                                                           -5 0   0.1     0.2     0.3      0.4     0.5    0.6     0.7    0.8
+                                                                               -10
+-0.08                                                                          -15           Z measured (deg)         Z fundamental [deg]
+ -0.1                                                                          -20
+
+                       Z measured (m)          Z fundamental [m]
+Project Timeline
+Kinematic analysis
+
+
+• Inverse kinematics was
+  first solved to
+  understand how actuator
+  movements correspond to
+  the desired platform
+  motion.
+
+• The goal of kinematic
+  analysis is to identify
+  the geometric
+  configuration that meets
+  the desired workspace
+  criteria.
+Dynamic analysis
+
+
+• The dynamic analysis of the
+  hexapod was conducted using
+  Simscape to calculate motor
+  requirements and measure the
+  forces and moments
+  transmitted through the
+  members during operation.
+
+•    These results were later
+    used for component sizing and
+    preliminary design.
+Project Timeline
+Preliminary design
+
+
+A 3D model of the hexapod was
+created in SolidWorks, using the
+geometry derived from the
+kinematic analysis as a
+reference for the proper
+positioning of components.
+Project Timeline
+Mechanical component
+dimensioning
+
+Mechanical components were sized
+using first principal modeling,
+and their design was verified
+through SolidWorks simulations
+to ensure functionality and
+performance under operational
+conditions.
+Project Timeline
+Usage of off-the-shelf
+components
+
+The platform will incorporate
+Commercial Off-The-Shelf
+components to streamline the
+development process, minimizing
+both time and cost
+Project Timeline
+Manufacturing & Assembly
+
+
+The UBCO machine shop will be
+used for the final design
+consultation and manufacturing.
+Project Timeline
+Motor control testing
+
+
+We plan to use a controller
+based on the MIT Mini Cheetah
+robot.
+We have also developed an
+additional controller as a back
+up, which has been verified
+using Simscape Multibody
+simulation.
+Project Timeline
+System Integration
+
+• We plan to develop a UI to control the
+  platform.
+  Target features so far are –
+   • Trajectory execution,
+   • Tuning,
+   • Data logging,
+   • E-stop.
+Project Timeline
+Full system testing
+
+• The primary goal of this phase is to turn the
+  prototype into a product that is essentially
+  very user-friendly platform.
+
+• Additionally, we will implement checks to
+  ensure that the input trajectories remain
+  within the hexapod’s workspace and the
+  motors’ operational limits
+
+• These limits can be determined from the
+  kinematic and dynamic analysis that is
+  already done.
+Project Timeline
+Design adjustments
+
+
+
+ • There is a possibility that certain
+   aspects of the input trajectory may not
+   be achievable with the current
+   configuration in practice.
+ • To address these cases, we plan to
+   implement mechanical solutions such as
+   hard stops, non-linear springs and shock
+   absorbers
+Thank you.
+

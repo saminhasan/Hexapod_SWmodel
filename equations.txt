@@ -4,7 +4,7 @@
 "motor_diameter"= 96 / 25.4in
 "motor_clearance"= 5 / 25.4in
 "motor_mount_hole_pattern_dia"= 84 / 25.4in
-"motor_mount_hole_dia"= 5 / 25.4in
+"motor_mount_hole_dia"= 4 / 25.4in
 "motor_cx"= "motor_clearance" + "motor_diameter" / 2in
 "motor_cy_top"= "motor_mount_hole_pattern_dia" / 2 + "motor_mount_hole_dia" * 2in
 "D1@Sketch1"="bplate_length"
@@ -14,7 +14,7 @@
 "motor_driver_cutout_clearance"= 60deg
 "wire_cutout_clearance"= 2in
 "connector_plate_thickness"= 1in
-"connector_plate_hole_diameter"= 0.375in
+"connector_plate_hole_diameter"= 0.5in
 "connector_plate_hole_depth"= 1in
 "coonector_first_hole_offset"= 1.6in
 "D14@Sketch1"=1.5
